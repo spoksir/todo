@@ -1,6 +1,6 @@
 import React from 'react';
 import { toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css'; // Certifique-se de importar o CSS do react-toastify
+
 
 const Todo = ({ id, title, description, mongoId, complete, deleteTodo, completeTodo }) => {
   
