@@ -79,7 +79,7 @@ export default function Home() {
           className="px-3 py-2 border-2 w-full text-center "
         />
         <textarea value={formData.description} onChange={onChangeHandler} name="description" placeholder="Enter Description" className="px-3 py-2 border-2 w-full text-center"></textarea>
-        <button tyoe="submit" className="bg-orange-600 self-center rounded-full py-3 px-11 text-white"> Add Task</button>
+        <button type="submit" className="bg-orange-600 self-center rounded-full py-3 px-11 text-white"> Add Task</button>
       </form>
 
       <div className="relative overflow-x-auto mt-24 w-[60%] mx-auto">
