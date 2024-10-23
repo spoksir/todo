@@ -1,11 +1,11 @@
 "use client"
-import Todo from "@/Components/Todo";
+import Todo from "../Components/Todo";
 import axios from "axios";
 import { useState } from "react";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import React, { useEffect } from 'react';
-import '@/app/';
+import './globals.css';
 
 
 export default function Home() {
